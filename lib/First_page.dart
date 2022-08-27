@@ -13,8 +13,10 @@ class _FirstPageState extends State<FirstPage> {
   String str="Home";
 
 
+
   @override
   Widget build(BuildContext context) {
+    double width=MediaQuery.of(context).size.width;
     return SafeArea(child: Scaffold(
       body: Container(
         padding: EdgeInsets.only(top: 20),
