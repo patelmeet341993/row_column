@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_app/First_page.dart';
-import 'package:flutter_app/Homepage2.dart';
+import 'package:flutter_app/calc/Calc.dart';
 
-import 'Homepage1.dart';
+import 'First_page.dart';
+
 
 void main() {
   runApp(const MyApp());
@@ -15,7 +15,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      home: FirstPage(),
+      home: Calc(),
     );
   }
 }
