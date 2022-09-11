@@ -2,6 +2,9 @@ import 'package:flutter/material.dart';
 import 'package:flutter_app/calc/Calc.dart';
 
 import 'First_page.dart';
+import 'listview/dynamic_listview.dart';
+import 'listview/firstpage_listview.dart';
+import 'listview/firstpage_listview_two.dart';
 
 
 void main() {
@@ -15,7 +18,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      home: Calc(),
+      home: DynamicListView(),
     );
   }
 }
