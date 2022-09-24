@@ -46,7 +46,6 @@ class _DynamicListViewState extends State<DynamicListView> {
                 child: ListView.builder(
                     itemCount: list.length,
                     itemBuilder: (ctx, i) {
-
                       Color clr;
 
                       try{
