@@ -3,6 +3,7 @@ import 'package:flutter_app/bank_statement_listview/mybank_homepage.dart';
 import 'package:flutter_app/calc/Calc.dart';
 import 'package:flutter_app/image_load/image_home.dart';
 import 'package:flutter_app/navigation/navi_main.dart';
+import 'package:flutter_app/restapi/restapi_home.dart';
 
 
 
@@ -18,7 +19,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      home: NaviMain(),
+      home: RestApiHome(),
     );
   }
 }
