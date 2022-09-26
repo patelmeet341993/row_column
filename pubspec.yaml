@@ -38,6 +38,7 @@ dependencies:
   flutter_toggle_tab: ^1.2.0
   http: ^0.13.5
   flutter_spinkit: ^5.1.0
+  stories_editor: ^0.2.0
   
 
 dev_dependencies:

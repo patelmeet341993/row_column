@@ -53,7 +53,7 @@ class _RestApiHomeState extends State<RestApiHome> {
               SizedBox(height: 50,),
               InkWell(
                 onTap: (){
-              getData("data");
+              getData("color");
                 },
                 child: Container(
                   color: Colors.orange,
