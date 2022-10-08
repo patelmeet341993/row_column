@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_app/First_page.dart';
+import 'package:flutter_app/asyncFun/async_home.dart';
 import 'package:flutter_app/location/location_home.dart';
 
 
@@ -16,7 +17,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      home: LocationHome(),
+      home: AsyncHome(),
     );
   }
 }
