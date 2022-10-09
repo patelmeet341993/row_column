@@ -21,7 +21,7 @@ class Mybtn extends StatelessWidget {
         child: Center(
             child: Text(
           label,
-          style: TextStyle(fontSize: 35,color: textClr),
+          style: TextStyle(fontSize: 20,color: textClr),
         )),
         height: height??double.maxFinite,
       ),
