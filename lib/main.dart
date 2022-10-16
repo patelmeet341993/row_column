@@ -4,6 +4,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_app/First_page.dart';
 import 'package:flutter_app/asyncFun/async_home.dart';
 import 'package:flutter_app/location/location_home.dart';
+import 'package:flutter_app/pageview/pageview_home.dart';
 import 'package:flutter_app/providers/data_provider.dart';
 import 'package:flutter_app/providers/listview_provider.dart';
 import 'package:flutter_app/providers/provider_home.dart';
@@ -27,7 +28,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      home: ListViewProvider(),
+      home: PageViewHome(),
     );
   }
 }
