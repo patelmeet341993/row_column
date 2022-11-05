@@ -2,6 +2,10 @@ import 'dart:developer';
 
 import 'package:flutter/material.dart';
 import 'package:flutter_app/First_page.dart';
+import 'package:flutter_app/animation/ColorAnim.dart';
+import 'package:flutter_app/animation/hero_anim1.dart';
+import 'package:flutter_app/animation/hero_animation.dart';
+import 'package:flutter_app/animation/place_anim.dart';
 import 'package:flutter_app/asyncFun/async_home.dart';
 import 'package:flutter_app/location/location_home.dart';
 import 'package:flutter_app/pageview/pageview_home.dart';
@@ -28,7 +32,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      home: PageViewHome(),
+      home: PlaceAnimation(),
     );
   }
 }
