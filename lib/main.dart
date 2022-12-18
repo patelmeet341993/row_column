@@ -12,6 +12,7 @@ import 'package:flutter_app/pageview/pageview_home.dart';
 import 'package:flutter_app/providers/data_provider.dart';
 import 'package:flutter_app/providers/listview_provider.dart';
 import 'package:flutter_app/providers/provider_home.dart';
+import 'package:flutter_app/webv/MyWebView.dart';
 import 'package:provider/provider.dart';
 
 
@@ -32,7 +33,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      home: PlaceAnimation(),
+      home: MyWebView(),
     );
   }
 }
